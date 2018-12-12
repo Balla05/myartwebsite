@@ -1,0 +1,100 @@
+
+body {
+  color: white;
+
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  padding-left: 350px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+
+}
+
+ul li {
+  float: left;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 25px;
+  margin: 20px;
+  margin-left: 50px;
+
+}
+
+ul li:hover {
+  border-color: #e60050;
+
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+#container{
+  width: 700px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-left: 270px;
+  margin-bottom: 300px;
+  box-shadow:20px 20px 50px grey;
+
+}
+
+#sliderbox{
+  position: relative;
+  width: 2100px;
+  animation-name: slideranime;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+
+}
+
+#sliderbox img{
+   float: left;
+}
+
+@keyframes slideranime {
+
+0% {
+    left: 0px;
+}
+20% {
+   left: 0px;
+ }
+25% {
+  left: -700px;
+}
+45% {
+  left: -700px;
+}
+50% {
+  left: -1400px;
+}
+70% {
+  left: -1400px;
+}
+75% {
+  left: -700px;
+}
+95% {
+  left: -700px;
+}
+100% {
+  left: -0px;
+}
